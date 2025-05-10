@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>اشحن لعبتك المفضلة مجاناً</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #00ffcc;
+    }
+    .games-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .game-card {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00ffcc33;
+    }
+    .game-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .game-card h2 {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+    .game-card a {
+      display: inline-block;
+      background: #00ffcc;
+      color: #000;
+      padding: 10px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>اختر لعبتك المفضلة واشحن مجاناً!</h1>
+
+  <div class="games-container">
+
+    <div class="game-card">
+      <img src="https://i.imgur.com/VnQh9MF.jpg" alt="Roblox">
+      <h2>شحن Robux مجاني</h2>
+      <a href="locker.html">ابدأ الآن</a>
+    </div>
+
+    <div class="game-card">
+      <img src="https://i.imgur.com/mVW4X8h.jpg" alt="Fortnite">
+      <h2>شحن V-Bucks مجاني</h2>
+      <a href="locker.html">ابدأ الآن</a>
+    </div>
+
+    <div class="game-card">
+      <img src="https://i.imgur.com/v4G1ElB.jpg" alt="Free Fire">
+      <h2>شحن Free Fire مجاناً</h2>
+      <a href="locker.html">ابدأ الآن</a>
+    </div>
+
+    <div class="game-card">
+      <img src="https://i.imgur.com/x5o1fh7.jpg" alt="PUBG">
+      <h2>UC مجاني لـ PUBG</h2>
+      <a href="locker.html">ابدأ الآن</a>
+    </div>
+
+    <div class="game-card">
+      <img src="https://i.imgur.com/yLCWpWS.jpg" alt="Minecraft">
+      <h2>احصل على Minecraft مجاناً</h2>
+      <a href="locker.html">ابدأ الآن</a>
+    </div>
+
+    <div class="game-card">
+      <img src="https://i.imgur.com/4xO4hO1.jpg" alt="GTA">
+      <h2>هدايا داخل GTA 5</h2>
+      <a href="locker.html">ابدأ الآن</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
